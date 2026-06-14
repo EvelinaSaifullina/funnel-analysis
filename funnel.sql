@@ -1,4 +1,4 @@
-WITH home_count AS (
+WITH home_count AS ( 
     SELECT 
 	    COUNT (DISTINCT user_id) AS cnt1
 	FROM home_page	
